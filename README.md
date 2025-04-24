@@ -3,8 +3,8 @@
 - 🔭 I’m currently developing [moe-aihelper](https://github.com/ydzat/moe-aihelper), an AI automation assistant. As I’m also taking *Linux Kernel Programming* this semester, I plan to evolve this project into a deeper integration with the Linux system.  
   / 我目前正在开发 [moe-aihelper](https://github.com/ydzat/moe-aihelper)，一个 AI 自动化助手项目。由于本学期同时在学习 *Linux 内核编程*，我计划将该项目进一步深化，嵌入到 Linux 系统底层。
 
-- 🌱 I’m currently learning Advanced Machine Learning, Software Language Engineering, Reinforcement Learning and Learning-based Control, and Concepts and Models for Parallel and Data-centric Programming. I’ll likely start my Master’s thesis next semester.  
-  / 我目前在学习《高级机器学习》《软件语言工程》《强化学习和基于学习的控制》以及《并行和以数据中心编程的概念和模型》，预计下学期开始撰写硕士论文。
+- 🌱 I’m currently learning Advanced Machine Learning, Linux Kernel Programming, Software Language Engineering, Reinforcement Learning and Learning-based Control, and Concepts and Models for Parallel and Data-centric Programming. I’ll likely start my Master’s thesis next semester.  
+  / 我目前在学习《高级机器学习》《Linux 内核编程》《软件语言工程》《强化学习和基于学习的控制》以及《并行和以数据中心编程的概念和模型》，预计下学期开始撰写硕士论文。
 
 - 👯 I’m looking to collaborate on innovative projects in AI, system-level automation, or language tooling.  
   / 我希望参与一些与 AI、系统自动化或语言工具相关的创新项目。

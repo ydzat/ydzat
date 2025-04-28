@@ -1,7 +1,14 @@
 ## Hi there 👋 / 嗨你好 👋
 
-- 🔭 I’m currently developing [moeai-c](https://gitlab.dongzeyang.top/ydzat/moeai-c), an AI automation assistant. As I’m also taking *Linux Kernel Programming* this semester, I plan to evolve this project into a deeper integration with the Linux system.  
-  / 我目前正在开发 [moeai-c](https://gitlab.dongzeyang.top/ydzat/moeai-c)，一个 AI 自动化助手项目。由于本学期同时在学习 *Linux 内核编程*，我计划将该项目进一步深化，嵌入到 Linux 系统底层。
+- 🔭 I’m currently developing two synergistic projects:
+
+    - [moeai-c](https://gitlab.dongzeyang.top/ydzat/moeai-c): An AI automation assistant designed for deep Linux integration. Leveraging my ongoing Linux Kernel Programming studies, I aim to evolve it into a system-level tool with capabilities like process调度优化 and in-kernel AI inference.
+
+    - KnowForge: An AI-powered knowledge refinery that transforms unstructured inputs (PDFs/code/images/web) into structured notes (Markdown/Jupyter/PDF). Core tech stack:
+      - Multi-modal Pipeline: OCR + NLP + ChromaDB记忆管理
+      - LLM Orchestration
+      - Linux-Native Future
+
 
 - 🌱 I’m currently learning Advanced Machine Learning, Linux Kernel Programming, Software Language Engineering, Reinforcement Learning and Learning-based Control, and Concepts and Models for Parallel and Data-centric Programming. I’ll likely start my Master’s thesis next semester.  
   / 我目前在学习《高级机器学习》《Linux 内核编程》《软件语言工程》《强化学习和基于学习的控制》以及《并行和以数据中心编程的概念和模型》，预计下学期开始撰写硕士论文。

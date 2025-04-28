@@ -5,7 +5,7 @@
     - [moeai-c](https://gitlab.dongzeyang.top/ydzat/moeai-c): An AI automation assistant designed for deep Linux integration. Leveraging my ongoing Linux Kernel Programming studies, I aim to evolve it into a system-level tool with capabilities like process调度优化 and in-kernel AI inference.
 
     - KnowForge: An AI-powered knowledge refinery that transforms unstructured inputs (PDFs/code/images/web) into structured notes (Markdown/Jupyter/PDF). Core tech stack:
-      - Multi-modal Pipeline: OCR + NLP + ChromaDB记忆管理
+      - Multi-modal Pipeline: OCR + NLP + ChromaDB
       - LLM Orchestration
       - Linux-Native Future
 

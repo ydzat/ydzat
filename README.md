@@ -9,6 +9,8 @@
       - LLM Orchestration
       - Linux-Native Future
 
+    - [AntiCheatVM](https://github.com/ydzat/AntiCheatVM): A command-line toolkit to build optimized Windows virtual machines on Linux, aiming to make anti-cheat-protected games like Wuthering Waves, Rainbow Six Siege, and APEX Legends runnable.
+
 
 - 🌱 I’m currently learning Advanced Machine Learning, Linux Kernel Programming, Software Language Engineering, Reinforcement Learning and Learning-based Control, and Concepts and Models for Parallel and Data-centric Programming. I’ll likely start my Master’s thesis next semester.  
   / 我目前在学习《高级机器学习》《Linux 内核编程》《软件语言工程》《强化学习和基于学习的控制》以及《并行和以数据中心编程的概念和模型》，预计下学期开始撰写硕士论文。

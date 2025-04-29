@@ -11,6 +11,8 @@
 
     - [AntiCheatVM](https://github.com/ydzat/AntiCheatVM): A command-line toolkit to build optimized Windows virtual machines on Linux, aiming to make anti-cheat-protected games like Wuthering Waves, Rainbow Six Siege, and APEX Legends runnable.
 
+    - [Logloom](https://github.com/ydzat/Logloom): A lightweight, cross-language logging system designed to unify log formats, support multilingual output, and prepare logs for intelligent analysis.
+By weaving structured data from different programs into a coherent framework, Logloom lays the foundation for future AI-driven diagnostics, anomaly detection, and system self-optimization.
 
 - 🌱 I’m currently learning Advanced Machine Learning, Linux Kernel Programming, Software Language Engineering, Reinforcement Learning and Learning-based Control, and Concepts and Models for Parallel and Data-centric Programming. I’ll likely start my Master’s thesis next semester.  
   / 我目前在学习《高级机器学习》《Linux 内核编程》《软件语言工程》《强化学习和基于学习的控制》以及《并行和以数据中心编程的概念和模型》，预计下学期开始撰写硕士论文。

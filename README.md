@@ -1,35 +1,80 @@
-## Hi there 👋 / 嗨你好 👋
+## 👋 Hi there / 嗨你好
 
-- 🔭 I’m currently developing two synergistic projects:
+Welcome to my structured project ecosystem. All my work is gradually converging toward a modular AI automation system for Linux — with `moeai-c` at the center.
 
-    - [moeai-c](https://gitlab.dongzeyang.top/ydzat/moeai-c): An AI automation assistant designed for deep Linux integration. Leveraging my ongoing Linux Kernel Programming studies, I aim to evolve it into a system-level tool with capabilities like process调度优化 and in-kernel AI inference.
+---
 
-    - [KnowForge](https://github.com/ydzat/knowforge): An AI-powered knowledge refinery that transforms unstructured inputs (PDFs/code/images/web) into structured notes (Markdown/Jupyter/PDF). Core tech stack:
-      - Multi-modal Pipeline: OCR + NLP + ChromaDB
-      - LLM Orchestration
-      - Linux-Native Future
+## 🧠 Core Project / 核心项目
 
-    - [AntiCheatVM](https://github.com/ydzat/AntiCheatVM): A command-line toolkit to build optimized Windows virtual machines on Linux, aiming to make anti-cheat-protected games like Wuthering Waves, Rainbow Six Siege, and APEX Legends runnable.
+### `moeai-c` – AI Automation Core for Linux
+> A system-level AI runtime deeply integrated with the Linux kernel. Serves as the orchestrator for my whole ecosystem.
 
-    - [Logloom](https://github.com/ydzat/Logloom): A lightweight, cross-language logging system designed to unify log formats, support multilingual output, and prepare logs for intelligent analysis.
-By weaving structured data from different programs into a coherent framework, Logloom lays the foundation for future AI-driven diagnostics, anomaly detection, and system self-optimization.
+- Kernel-level process scheduling optimization
+- In-kernel AI inference (planned)
+- Modular design with plugin architecture
+- CLI-first philosophy, minimal external dependencies
 
-- 🌱 I’m currently learning Advanced Machine Learning, Linux Kernel Programming, Software Language Engineering, Reinforcement Learning and Learning-based Control, and Concepts and Models for Parallel and Data-centric Programming. I’ll likely start my Master’s thesis next semester.  
-  / 我目前在学习《高级机器学习》《Linux 内核编程》《软件语言工程》《强化学习和基于学习的控制》以及《并行和以数据中心编程的概念和模型》，预计下学期开始撰写硕士论文。
+🔗 [moeai-c (GitLab)](https://gitlab.dongzeyang.top/ydzat/moeai-c)
 
-- 👯 I’m looking to collaborate on innovative projects in AI, system-level automation, or language tooling.  
-  / 我希望参与一些与 AI、系统自动化或语言工具相关的创新项目。
+---
 
-- 🤔 I’m looking for work opportunities, ideally in AI, Game Development, VR, Parallel Programming, or Software Engineering.  
-  / 我正在寻找工作机会，优先考虑 AI、游戏开发、虚拟现实、并行编程或软件工程相关领域。
+## 🧩 Ecosystem Overview / 项目生态结构图
 
-- 💬 Ask me about Python automation, RL experiments, Linux development, or studying Computer Science in Germany.  
-  / 欢迎与我交流 Python 自动化、强化学习实验、Linux 系统开发，或德国计算机专业学习体验。
+```mermaid
+graph TD
+  A[moeai-c<br>核心AI系统] --> B[KnowForge<br>知识提取与结构化工具]
+  A --> C[AIMADojo<br>AI自动剪辑器（WIP）]
 
-- 📫 How to reach me: ydzat@live.com  
-  / 联系方式：ydzat@live.com
+  B --> E[Logloom<br>日志与多语言系统]
+  C --> E
+  A --> E
+```
 
+---
+
+## 📦 Modules / 模块说明
+
+### [`Logloom`](https://github.com/ydzat/Logloom)
+> A cross-language logging + multilingual interface layer
+- Unified logging format across tools
+- Designed for AI diagnostics, anomaly detection
+- Supports Chinese/English/i18n message sets
+
+### [`KnowForge`](https://github.com/ydzat/knowforge)
+> AI-Powered Knowledge Refiner
+- Convert PDFs, web, code into Markdown/Jupyter
+- OCR + NLP + ChromaDB + LLM orchestration
+- Tight integration with `moeai-c`
+
+### [`AIMADojo`](https://github.com/ydzat/AIMADojo) *(WIP)*
+> Automatic MAD (Music Video) Editor
+- Beat sync + cut detection + AI previewing
+- Designed to be invoked from `moeai-c`
+- Focused on anime/game music content
+
+### [`AntiCheatVM`](https://github.com/ydzat/AntiCheatVM)
+> CLI tool for gaming VMs under Linux
+- Custom Windows VM builder
+- For games with anti-cheat (e.g., Wuthering Waves, R6, APEX)
+
+---
+
+## 📚 Currently Learning / 当前学习内容
+- Advanced Machine Learning / 高级机器学习
+- Linux Kernel Programming / Linux 内核编程
+- Software Language Engineering / 软件语言工程
+- Reinforcement Learning & Learning-based Control / 强化学习与基于学习的控制
+- Concepts and Models for Parallel and Data-centric Programming / 并行与以数据为中心的编程模型
+
+> I expect to start my Master's thesis next semester. / 预计下学期开始撰写硕士论文。
+
+---
+
+## 🤝 Contact & Collaboration / 联系与合作
+
+- 👯 Looking to collaborate on: AI agents, DSL tooling, OS-level automation
+- 💼 Open to work in: AI, Game Development, VR, Parallel Programming, Systems Engineering
+- 💬 Ask me about: Python automation, RL experiments, Linux dev, CS in Germany
+- 📫 Email: [ydzat@live.com](mailto:ydzat@live.com)
 - 😄 Pronouns: he/him / 他
-
-- ⚡ Fun fact: I once wrote a script to automate appointment booking at the German Ausländerbehörde, just to secure a slot — but apparently, they’re on vacation every day! 😅  
-  / 有趣事实：我曾写过脚本自动刷德国外管局的预约系统，只为抢到一个名额——可惜他们好像天天在放假！😅
+- ⚡ Fun fact: I once wrote a bot to snipe appointments from the German Ausländerbehörde... but they’re always on vacation. 😅

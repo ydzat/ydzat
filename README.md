@@ -23,6 +23,51 @@ Welcome to my structured project ecosystem. All my work is gradually converging 
 
 This system forms the core of my master's thesis (tentative title: *"DevNexus: A Hierarchical Multi-Agent System for Intelligent Software Construction"*), aiming for goal-consistent, self-evolving automation in software projects.
 
+### [`DevNexusLite`](https://gitlab.dongzeyang.top/ydzat/devnexuslite) – Lightweight Distributed Agent System *(engineering prototype)*
+
+> A GitLab-driven, modular, resource-efficient multi-agent system designed for practical collaboration under limited compute environments.
+
+**DevNexusLite** is a stripped-down yet functional variant of the original DevNexus concept. It replaces the hierarchical transformer-style agent infrastructure with a Git-centric coordination mechanism, allowing distributed LLM-based agents to operate across different machines (Windows, Linux laptops, cloud VMs) with minimal setup.
+
+This system was created as a pragmatic response to infrastructure constraints during the early development of DevNexus. It enables real-world testing of agent interactions and modular task execution through a simple Git + Python + `.env` configuration model. Tasks are submitted via GitLab commits or issues, then picked up and executed by decentralized agents using DeepSeek APIs, Copilot, or Claude (via VSCode).
+
+While DevNexus is positioned as the theoretical foundation of my thesis (*"A Hierarchical Multi-Agent System for Intelligent Software Construction"*), **DevNexusLite serves as the hands-on, field-tested implementation layer**, helping me validate architectural ideas in production-like conditions.
+
+**Key Features:**
+
+* Fully GitLab-driven: task submission, result merging, version control
+* Decentralized execution: agents run on arbitrary devices with dynamic participation
+* Plug-and-play agent setup via `.env` + Python scripts
+* Supports DeepSeek API, Git automation, LLM prompt templating
+* Designed to simulate multi-agent coordination with only one or few real LLM endpoints
+* Architecture is easy to extend, yet suitable for single-user workflows
+
+**Use Cases:**
+
+* Experimenting with collaborative LLM agents on a budget
+* Testing modular software generation pipelines
+* Validating prompt orchestration and Git-based coordination strategies
+
+📁 Repo: [`devnexuslite`](https://gitlab.dongzeyang.top/ydzat/devnexuslite)
+
+---
+
+### 🦩 How DevNexusLite relates to DevNexus
+
+| Aspect         | DevNexus                                                               | DevNexusLite                                                 |
+| -------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------ |
+| Purpose        | Theoretical multi-agent software construction system (research-driven) | Practical, lightweight implementation of agent collaboration |
+| Infrastructure | LangGraph / Transformer-style agent orchestration (planned)            | GitLab + CLI agents + LLM APIs                               |
+| Architecture   | Hierarchical, goal-consistent multi-agent planning                     | Flat, task-driven, file-based coordination                   |
+| Role           | Thesis core platform                                                   | Engineering playground & testing ground                      |
+| Status         | In design, thesis-oriented                                             | Actively prototyped and iterated                             |
+
+
+
+
+
+
+
 ---
 
 ## 🧹 Ecosystem Overview / 项目生态结构图

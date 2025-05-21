@@ -106,6 +106,18 @@ graph TD
 * Integrated with `moeai-c`, used in `DevNexus` experiments
 * **Actively under development**
 
+### `LingCraft` *(WIP)*
+
+> Structured AI Learning System for Students & Language Learners
+
+* Cross-platform intelligent notebook + adaptive learning engine
+* Multimodal input: handwriting, screenshots, voice, structured text
+* Built-in review scheduler and card-based practice flow
+* Fully developed via `DevNexusLite` agents (GitLab-driven)
+* Powered by `KnowForge` for OCR, semantic structuring, and concept mapping
+* Notebook execution engine with Python + Pyodide
+* **Currently in early development**
+
 ### [`AIMADojo`](https://github.com/ydzat/AIMADojo) *(WIP)*
 
 > Automatic MAD (Music Video) Editor

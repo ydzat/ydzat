@@ -74,13 +74,31 @@ While DevNexus is positioned as the theoretical foundation of my thesis (*"A Hie
 
 ```mermaid
 graph TD
-  A[moeai-c<br>核心AI系统] --> B[KnowForge<br>知识提取与结构化工具]
-  A --> C[AIMADojo<br>AI自动剪辑器（WIP）]
-  A --> E[Logloom<br>日志与多语言系统]
+  subgraph 基础工具层
+    E[Logloom<br>日志与多语言系统]
+  end
 
-  D[DevNexus<br>软件工程代理系统（硕士论文）] --> A
+  subgraph 核心引擎层
+    A[moeai-c<br>核心AI系统]
+    B[KnowForge<br>知识结构引擎]
+  end
+
+  subgraph 应用与平台层
+    F[LingCraft<br>AI学习系统]
+    C[AIMADojo<br>AI自动剪辑器（WIP）]
+    D[DevNexus<br>软件工程代理系统（硕士论文）]
+  end
+
+  D --> A
   D --> B
   D --> C
+  D --> F
+
+  F --> B
+  F --> E
+  C --> A
+  A --> E
+  B --> E
   D --> E
 ```
 

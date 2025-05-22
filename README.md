@@ -90,10 +90,15 @@ graph TD
     G[LingBridge<br>多语翻译系统]
   end
 
+  subgraph 控制中枢
+    Z[AOS<br>Agent Operating System<br>智能操作平台（软内核）]
+  end
+
   D --> A
   D --> B
   D --> C
   D --> F
+  D --> G
 
   F --> B
   F --> E
@@ -101,10 +106,16 @@ graph TD
   A --> E
   B --> E
   D --> E
-
-  D --> G
   G --> B
   G --> E
+
+  Z --> A
+  Z --> B
+  Z --> C
+  Z --> D
+  Z --> E
+  Z --> F
+  Z --> G
 ```
 
 ---

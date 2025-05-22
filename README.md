@@ -87,6 +87,7 @@ graph TD
     F[LingCraft<br>AI学习系统]
     C[AIMADojo<br>AI自动剪辑器（WIP）]
     D[DevNexus<br>软件工程代理系统（硕士论文）]
+    G[LingBridge<br>多语翻译系统]
   end
 
   D --> A
@@ -96,10 +97,14 @@ graph TD
 
   F --> B
   F --> E
-  C --> A
+  C --> E
   A --> E
   B --> E
   D --> E
+
+  D --> G
+  G --> B
+  G --> E
 ```
 
 ---

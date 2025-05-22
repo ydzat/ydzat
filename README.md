@@ -136,6 +136,15 @@ graph TD
 * Notebook execution engine with Python + Pyodide
 * **Currently in early development**
 
+### 🔊 LingBridge · 言桥 *(WIP)*
+
+> **Bridging voices, beyond words.**
+> **连接声音，跨越语言。**
+
+**LingBridge** 是一个多平台智能翻译系统，聚焦于多语种语音/文字实时翻译、个体感知与上下文理解，旨在打破语言壁垒，构建沉浸式、自然流畅的沟通体验。未来将拓展至 VR、AR 与脑机接口等人机交互形态。
+
+**LingBridge** is a cross-platform intelligent translation system designed for immersive, seamless multilingual communication. With real-time translation, contextual understanding, and speaker awareness, it bridges language gaps across physical and virtual worlds—including future integration with VR, AR, and neural interfaces.
+
 ### [`AIMADojo`](https://github.com/ydzat/AIMADojo) *(WIP)*
 
 > Automatic MAD (Music Video) Editor

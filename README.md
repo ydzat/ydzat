@@ -1,72 +1,65 @@
+
 ## 👋 Hi there / 嗬你好
 
-Welcome to my structured project ecosystem. All my work is gradually converging toward a modular AI automation system for Linux and software engineering — with `moeai-c` and `DevNexus` at the center.
+Welcome to my structured project ecosystem. All my work is gradually converging toward a modular, task-driven **Agent Operating System (AOS)** — a platform built for AI automation and software construction.
+
+欢迎来到我的项目生态系统。目前我的所有工作正逐步汇聚为一个模块化、任务驱动的 **智能代理操作系统 AOS（智核）**，它致力于 AI 自动化与软件构建。
+
+---
+
+## 🧠 Platform Core / 系统平台核心
+
+### [`AOS`](https://github.com/ydzat/AgentOS) – Agent Operating System / 智核 *(Core Platform)*
+
+> A soft-kernel platform that unifies all my projects under a task-driven, multi-agent runtime.
+
+> 一个软内核平台，以任务驱动和智能代理为核心，统一调度我所有的子项目。
+
+AOS is the architectural foundation of my ecosystem. It is a soft-layer operating system for intelligent agent coordination, creation workflows, and system-wide orchestration — akin to what ROS is for robots, AOS is for AI-driven software and creative agents.
+
+AOS 是我整个项目体系的架构核心，它提供智能代理的统一运行环境，调度任务与模块，形成面向意图的执行系统。就像 ROS 之于机器人，AOS 是创作型智能体的操作系统。
+
+**Core Responsibilities / 核心职责：**
+
+- Task management / 任务管理
+- Agent lifecycle orchestration / Agent 生命周期调度
+- Dependency-aware multi-module execution / 多模块依赖感知调度
+- Execution feedback learning / 自我演化与行为修复机制
 
 ---
 
 ## 🧐 Core Projects / 核心项目
 
-### `moeai-c` – AI Automation Core for Linux
+### `moeai-c` – Kernel-Side Agent Toolkit for Linux Automation / Linux 内核智能工具集
 
-> A system-level AI runtime deeply integrated with the Linux kernel. Serves as the orchestrator for OS-side automation.
+> A system-level toolkit designed to extend AOS capabilities into the Linux kernel space.
 
-* Kernel-level process scheduling optimization
-* In-kernel AI inference (planned)
-* Modular design with plugin architecture
-* CLI-first philosophy, minimal external dependencies
+> 一个用于扩展 AOS 到 Linux 内核侧的系统级智能工具包。
 
-🔗 [moeai-c (GitLab)](https://gitlab.dongzeyang.top/ydzat/moeai-c)
+moeai-c is not the core engine but a specialized AgentPack under AOS. It focuses on OS-side automation, low-level task monitoring, and runtime feedback capture.
 
-### `DevNexus` – Intelligent Agent System for Software Automation *(in thesis development)*
+moeai-c 不再被视为“核心 AI 引擎”，而是 AOS 下的一个特殊 AgentPack，专注于操作系统自动化、内核交互与实时反馈。
+
+* Kernel-level process scheduling augmentation / 进程调度增强
+* Hooks for eBPF-based awareness (planned) / eBPF 感知（计划中）
+* CLI tools for Linux automation / 命令行工具
+* Seamless integration with AOS / 无缝接入 AOS 系统
+
+### `DevNexus` – Intelligent Agent System for Software Automation / 智能软件工程系统 *(硕士论文核心)*
 
 > An agent-based coordination platform for collaborative software engineering.
 
-This system forms the core of my master's thesis (tentative title: *"DevNexus: A Hierarchical Multi-Agent System for Intelligent Software Construction"*), aiming for goal-consistent, self-evolving automation in software projects.
+> 基于 Agent 的智能化软件构建系统，我硕士论文的核心平台。
 
-### [`DevNexusLite`](https://gitlab.dongzeyang.top/ydzat/devnexuslite) – Lightweight Distributed Agent System *(engineering prototype)*
+### [`DevNexusLite`](https://gitlab.dongzeyang.top/ydzat/devnexuslite) – Lightweight Distributed Agent System / 轻量级分布式代理系统 *(工程原型)*
 
 > A GitLab-driven, modular, resource-efficient multi-agent system designed for practical collaboration under limited compute environments.
 
-**DevNexusLite** is a stripped-down yet functional variant of the original DevNexus concept. It replaces the hierarchical transformer-style agent infrastructure with a Git-centric coordination mechanism, allowing distributed LLM-based agents to operate across different machines (Windows, Linux laptops, cloud VMs) with minimal setup.
+> 基于 GitLab 的模块化 Agent 协作系统，适用于资源有限环境的实际测试。
 
-This system was created as a pragmatic response to infrastructure constraints during the early development of DevNexus. It enables real-world testing of agent interactions and modular task execution through a simple Git + Python + `.env` configuration model. Tasks are submitted via GitLab commits or issues, then picked up and executed by decentralized agents using DeepSeek APIs, Copilot, or Claude (via VSCode).
+DevNexusLite operates as an **AgentPack** within AOS. It simulates multi-agent orchestration using Git, Python, and minimal config.
 
-While DevNexus is positioned as the theoretical foundation of my thesis (*"A Hierarchical Multi-Agent System for Intelligent Software Construction"*), **DevNexusLite serves as the hands-on, field-tested implementation layer**, helping me validate architectural ideas in production-like conditions.
-
-**Key Features:**
-
-* Fully GitLab-driven: task submission, result merging, version control
-* Decentralized execution: agents run on arbitrary devices with dynamic participation
-* Plug-and-play agent setup via `.env` + Python scripts
-* Supports DeepSeek API, Git automation, LLM prompt templating
-* Designed to simulate multi-agent coordination with only one or few real LLM endpoints
-* Architecture is easy to extend, yet suitable for single-user workflows
-
-**Use Cases:**
-
-* Experimenting with collaborative LLM agents on a budget
-* Testing modular software generation pipelines
-* Validating prompt orchestration and Git-based coordination strategies
-
-📁 Repo: [`devnexuslite`](https://gitlab.dongzeyang.top/ydzat/devnexuslite)
-
----
-
-### 🦩 How DevNexusLite relates to DevNexus
-
-| Aspect         | DevNexus                                                               | DevNexusLite                                                 |
-| -------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------ |
-| Purpose        | Theoretical multi-agent software construction system (research-driven) | Practical, lightweight implementation of agent collaboration |
-| Infrastructure | LangGraph / Transformer-style agent orchestration (planned)            | GitLab + CLI agents + LLM APIs                               |
-| Architecture   | Hierarchical, goal-consistent multi-agent planning                     | Flat, task-driven, file-based coordination                   |
-| Role           | Thesis core platform                                                   | Engineering playground & testing ground                      |
-| Status         | In design, thesis-oriented                                             | Actively prototyped and iterated                             |
-
-
-
-
-
-
+DevNexusLite 在 AOS 中作为一个 AgentPack 运行，使用 Git + Python 模拟多代理协作。
 
 ---
 
@@ -79,14 +72,14 @@ graph TD
   end
 
   subgraph 核心引擎层
-    A[moeai-c<br>核心AI系统]
+    A[moeai-c<br>内核智能工具集]
     B[KnowForge<br>知识结构引擎]
   end
 
   subgraph 应用与平台层
     F[LingCraft<br>AI学习系统]
-    C[AIMADojo<br>AI自动剪辑器（WIP）]
-    D[DevNexus<br>软件工程代理系统（硕士论文）]
+    C[AIMADojo<br>AI自动剪辑器]
+    D[DevNexus<br>软件工程代理系统]
     G[LingBridge<br>多语翻译系统]
   end
 
@@ -117,6 +110,7 @@ graph TD
   Z --> F
   Z --> G
 ```
+
 
 ---
 
@@ -207,4 +201,4 @@ graph TD
 
 I'm passionate about games and aspire to work in the game industry in the future. I am currently prototyping a "fourth wall-breaking" narrative-driven game. Whether it will be released on Steam depends on the final development quality.
 
-In addition, I have a "game idea backlog" filled with concepts that require significantly more resources and technical sophistication. These will be developed only when the right team and support become available.
+此外，我有多个关于交互叙事与玩法机制的游戏创意，目前尚待时间与资源支持。

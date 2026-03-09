@@ -5,6 +5,10 @@ Welcome to my structured project ecosystem. All my work is gradually converging 
 
 欢迎来到我的项目生态系统。目前我的所有工作正逐步汇聚为一个模块化、任务驱动的 **智能代理操作系统 AOS（智核）**，它致力于 AI 自动化与软件构建。
 
+
+> 入驻了爱发电：[我的主页](https://afdian.com/a/ydzat)
+
+
 ---
 
 ## 🧠 Platform Core / 系统平台核心

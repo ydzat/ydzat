@@ -5,8 +5,6 @@ Master's student graduating soon, currently focused on my thesis and work projec
 
 即将毕业的硕士生，目前专注于论文和工作项目。对 AI Agent、系统编程和实用工具开发感兴趣。
 
-> 入驻了爱发电：[我的主页](https://afdian.com/a/ydzat)
-
 ---
 
 ## 🔭 Current Focus / 当前重点
